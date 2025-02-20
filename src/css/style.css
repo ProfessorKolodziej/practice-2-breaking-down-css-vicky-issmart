@@ -1,1 +1,114 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.page-title {
+    color: #FFFFFF;
+}
+.practice-problems {
+    display: inline-flex;
+    gap: 150px;
+    position: absolute;
+
+}
+.similar-font,
+.find-grid,
+.style-choice {
+    width: 800px;
+    height: 800px;
+}
+
+.similar-font {
+    background-color: #3D3E61;
+    font-family: Lekton;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+.similar-font-headline {
+    font-family: "Josefin Sans", serif;
+    font-weight: 700;
+    color: #FFBF43;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.find-grid {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.find-grid-headline {
+    grid-column: 2 / span 6;
+    grid-row: 3 / span 2;
+    color: #003053;
+    font-family: "IBM Plex Mono";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top:0;
+    text-transform: lowercase;
+}
+
+.find-grid-content {
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 4;
+    columns: 2;
+    color: #003053;
+    font-family: "Crimson Text";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+
+.find-grid-content p {
+    break-inside: avoid;
+    margin-top: 0;
+}
+
+
+.style-choice {
+    background: url(../images/brushed-alum-dark-1920x1080.png) lightgray 50% / cover no-repeat;
+    padding: 100px; 
+    color: #003053;
+    font-family: "Edu AU VIC WA NT Pre";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.style-choice-headline {
+    margin: 100px 0;
+    color: #003053;
+    font-family: "Playwrite CU";
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content-container {
+    transform: rotate(-15deg);
+}
